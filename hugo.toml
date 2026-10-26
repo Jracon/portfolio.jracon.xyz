@@ -1,0 +1,32 @@
+baseURL = "https://portfolio.jracon.xyz/"
+locale = "en-us"
+sectionPagesMenu = "main"
+theme = "risotto"
+title = "Jade Meskill"
+
+[caches.images]
+dir = ":cacheDir/images"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.about]
+description = "Research Software Engineer"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:9o7qkklz@anonaddy.com"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/Jracon"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/jade-meskill"
+
+[params.theme]
+palette = "me"
