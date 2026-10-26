@@ -8,4 +8,4 @@ My [Nix](https://nixos.org/) Flake for declarative, reproducible, homelab infras
 
 ## [portfolio.jracon.xyz](https://portfolio.jracon.xyz) <- You are Here!
 
-This portfolio; generated with [Hugo](https://gohugo.io/) + [risotto](https://github.com/joeroe/risotto) and hosted with [Cloudflare Pages](https://pages.cloudflare.com).
+This portfolio; generated with [Hugo](https://gohugo.io/) + [risotto](https://github.com/joeroe/risotto) and hosted with [GitHub Pages](https://pages.github.com).
