@@ -1,0 +1,8 @@
+<nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="{{ .Site.BaseURL }}" class="page__logo-inner">{{ .Site.Title }}</a></h1></li>
+    {{ range .Site.Params.socialLinks }}
+    <li class="main-nav__item"><a class="nav-main-item" href="{{ .url }}" rel="me" aria-label="{{ .title }}" title="{{ .title }}"><i class="{{ .icon }}" aria-hidden="true"></i> {{ .title }}</a></li>
+    {{ end }}
+    </ul>
+</nav>
