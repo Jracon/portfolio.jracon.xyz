@@ -1,6 +1,5 @@
 baseURL = "https://portfolio.jracon.xyz/"
 locale = "en-us"
-sectionPagesMenu = "main"
 theme = "risotto"
 title = "Jade Meskill"
 
@@ -11,7 +10,7 @@ dir = ":cacheDir/images"
 unsafe = true
 
 [params.about]
-description = "Research Software Engineer"
+description = "Software engineer: backend APIs, data pipelines, and geospatial/ML for research."
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
@@ -27,6 +26,11 @@ url = "https://github.com/Jracon"
 icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
 url = "https://www.linkedin.com/in/jade-meskill"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-orcid"
+title = "ORCID"
+url = "https://orcid.org/0009-0003-2510-4834"
 
 [params.theme]
 palette = "me"
