@@ -1,0 +1,28 @@
+/* Maps the themes palette (static/css/palettes/<name>.css) onto risotto's variables.
+   --bg, --fg, --muted etc. come from the palette; this file must not redefine --bg or --fg. */
+:root {
+  --off-bg: var(--surface);
+  --inner-bg: var(--selection);
+  --off-fg: var(--muted);
+  --link: var(--accent);
+  --hover: var(--cyan);
+  --highlight: var(--yellow);
+  --logo: var(--accent);
+
+  --base00: var(--bg);
+  --base01: var(--surface);
+  --base02: var(--selection);
+  --base03: var(--comment);
+  --base04: var(--muted);
+  --base05: var(--fg);
+  --base06: var(--fg);
+  --base07: var(--bright);
+  --base08: var(--red);
+  --base09: var(--orange);
+  --base0A: var(--yellow);
+  --base0B: var(--green);
+  --base0C: var(--cyan);
+  --base0D: var(--blue);
+  --base0E: var(--purple);
+  --base0F: var(--pink);
+}

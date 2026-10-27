@@ -33,4 +33,4 @@ title = "ORCID"
 url = "https://orcid.org/0009-0003-2510-4834"
 
 [params.theme]
-palette = "me"
+palette = "violet"
