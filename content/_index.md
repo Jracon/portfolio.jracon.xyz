@@ -14,8 +14,9 @@ _Jan 2025 - Nov 2026_
 **USGS Water Accounts**: technical lead on [_Developing the Next Generation of U.S. Water Accounts_](https://water.usgs.gov/wrri/grant-details.php?ProjectID=2023AZ001G&Type=National), a USGS [104(g) National Competitive Grant](https://wrrc.arizona.edu/news/nau-research-project-receives-federal-104g-grant) (2024-2026).
 
 - Developed datasets and algorithms for 5 hydrology and machine learning manuscripts; 1 under review, 4 slated for 2026-2027.
-  - Adapted a [spatial disaggregation pipeline](https://github.com/jim245/spdisaggregation) to produce resolution-agnostic CONUS data across 4 water use sectors, in the NAU HPC environment (**SLURM**, **Keras/TensorFlow**).
-    - Cut compute time ~15× (10 h to ~40 min per raster layer) with optimized in-memory raster handling [?: other changes].
+  - Adapted a [spatial disaggregation pipeline](https://github.com/jim245/spdisaggregation) to produce 1 km CONUS data across 4 water use sectors, in the NAU HPC environment (**Keras/TensorFlow**, **SLURM**).
+    - Cut compute time ~7.5× (5 h to ~40 min per raster layer) with vectorized patch reconstruction, per-zone sums, and prediction masking.
+    - Diagnosed a mis-scaled loss function, bringing R^2 from -0.38 to 0.87.
 - Co-planned project phases and coordinated 6 undergraduate researchers building CONUS water use datasets as inputs to System of Environmental-Economic Accounting (SEEA) water accounts.
 
 **FEWSION Supply Chain Database**
@@ -24,7 +25,7 @@ _Jan 2025 - Nov 2026_
   - Synced consensus records from **MongoDB** into **PostgreSQL** for spatial queries.
 - Developed an entity-resolution matcher to link incoming records to existing facilities, avoiding duplicates and scoring candidates on industry code, facility type, fuzzy name similarity, and distance (**H3**, async **SQLAlchemy**).
 - Built **Azure Functions** ingestion pipelines for millions of records across economic sectors worldwide: Premise field surveys, Overture Maps (**DuckDB**), OpenStreetMap infrastructure, and global ports of entry (land, sea, and air).
-- Migrated the generic CRUD API layer to high-availability **PyNest** services and async **SQLAlchemy**.
+- Migrated my generic CRUD API layer to high-availability **PyNest** services and async **SQLAlchemy**.
 - Authored an internal library of parameterized **Cypher** queries in **Neo4j** to feed [an economic network visualization](https://www.fewview.us/) with multi-hop trade flow metrics and trade relationship resilience.
 
 ### Research Intern @ Northern Arizona University
