@@ -14,7 +14,7 @@ _Jan 2025 - Nov 2026_
 **USGS Water Accounts**: technical lead on [_Developing the Next Generation of U.S. Water Accounts_](https://water.usgs.gov/wrri/grant-details.php?ProjectID=2023AZ001G&Type=National), a USGS [104(g) National Competitive Grant](https://wrrc.arizona.edu/news/nau-research-project-receives-federal-104g-grant) (2024-2026).
 
 - Developed datasets and algorithms for 5 hydrology and machine learning manuscripts (1 under review, 4 in preparation).
-  - Adapted a [co-training CNN and random forest pipeline](https://github.com/jim245/spdisaggregation) to downscale watershed water use totals to 1 km CONUS rasters across 4 water use sectors (**GPU Keras/TensorFlow**, **scikit-learn**, **SLURM**).
+  - Adapted a co-training CNN and random forest pipeline to downscale watershed water use totals to 1 km CONUS rasters across 4 water use sectors (**GPU Keras/TensorFlow**, **scikit-learn**, **SLURM**).
     - Cut compute time ~7.5× (5 h to ~40 min per raster layer) with vectorized raster operations and prediction masking.
     - Diagnosed and fixed a mis-scaled loss function that was degrading model accuracy.
   - Extended water resource dependency equations to CONUS with a watershed flow graph (**GeoPandas**, **rasterio**).
@@ -71,7 +71,7 @@ A [**Nix** flake for declarative homelab and development infrastructure](https:/
 
 ## Education
 
-**Bachelor of Science** in **Applied Computer Science** @ Northern Arizona University (Flagstaff, Arizona), Dec 2024, GPA 3.67
+**Bachelor of Science** in **Applied Computer Science** @ Northern Arizona University (Flagstaff, Arizona), graduated Dec 2024, GPA 3.67
 
 ## Publications
 
