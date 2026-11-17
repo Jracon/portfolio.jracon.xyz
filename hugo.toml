@@ -25,7 +25,7 @@ url = "https://github.com/Jracon"
 [[params.socialLinks]]
 icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
-url = "https://www.linkedin.com/in/jade-meskill"
+url = "https://www.linkedin.com/in/jade-meskill/"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-orcid"

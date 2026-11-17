@@ -3,7 +3,7 @@ description = 'Software engineer: backend APIs, data pipelines, and geospatial/M
 aliases = ['/resume']
 +++
 
-I'm Jade Meskill, a software engineer with 2+ years of experience building backend APIs and data pipelines for government-funded research in [global supply chains](https://fewsion.us) and [U.S. water resources](https://water.usgs.gov/wrri/grant-details.php?ProjectID=2023AZ001G&Type=National); experienced with geospatial data science, graph databases, high-performance computing, and applied machine learning. Open to relocation.
+I'm Jade Meskill, a software engineer with 2+ years of experience building backend APIs and data pipelines for government-funded research in [global supply chains](https://fewsion.us) and [U.S. water resources](https://wrrc.arizona.edu/news/nau-research-project-receives-federal-104g-grant); experienced with geospatial data science, graph databases, high-performance computing, and applied machine learning. Open to relocation.
 
 ## Work Experience
 
@@ -11,13 +11,13 @@ I'm Jade Meskill, a software engineer with 2+ years of experience building backe
 
 _Jan 2025 - Nov 2026_
 
-**USGS Water Accounts**: technical lead on [_Developing the Next Generation of U.S. Water Accounts_](https://water.usgs.gov/wrri/grant-details.php?ProjectID=2023AZ001G&Type=National), a USGS [104(g) National Competitive Grant](https://wrrc.arizona.edu/news/nau-research-project-receives-federal-104g-grant) (2024-2026).
+**USGS Water Accounts**: technical lead on [_Developing the Next Generation of U.S. Water Accounts_](https://water.usgs.gov/wrri/grant-details.php?ProjectID=2023AZ001G&Type=National), a USGS 104(g) National Competitive Grant (2024-2026).
 
 - Developed datasets and algorithms for 5 hydrology and machine learning manuscripts (1 under review, 4 in preparation).
   - Adapted a [co-training CNN and random forest pipeline](https://github.com/jim245/huc-water-use-disaggregation) to downscale watershed water use totals to 1 km CONUS rasters across 4 water use sectors (**GPU Keras/TensorFlow**, **scikit-learn**, **SLURM**).
     - Cut compute time ~7.5× (5 h to ~40 min per raster layer) with vectorized raster operations and prediction masking.
     - Diagnosed and fixed a mis-scaled loss function that was degrading model accuracy.
-  - Extended water resource dependency equations to CONUS with a watershed flow graph (**GeoPandas**, **rasterio**).
+  - Extended [water resource dependency equations](https://github.com/jim245/conus-water-tower-model) to CONUS with a watershed flow graph (**GeoPandas**, **rasterio**).
 - Co-planned project phases and coordinated 6 undergraduate researchers building CONUS water use datasets as inputs to System of Environmental-Economic Accounting (SEEA) water accounts.
 
 **FEWSION Supply Chain Database**
@@ -36,7 +36,7 @@ _Jan 2024 - Dec 2024_
 **USGS Water Accounts**
 
 - Modeled environmental flow requirements for ecosystems across the Potomac River Basin for a [high-resolution water tower model](https://doi.org/10.22541/essoar.15006823/v1), through kriging interpolation of USGS stream gauge records (**PyKrige**).
-- Developed a [mass-preserving spatial disaggregation pipeline](https://github.com/Sjostedt-eric/usgs_disaggregation/tree/thermoelectric/thermoelectric) for monthly CONUS thermoelectric power plant water use, allocating each plant's consumption and withdrawal by building footprint area (**GeoPandas**, **Shapely**, **rasterio**, **Overpass API**).
+- Developed a [mass-preserving spatial disaggregation pipeline](https://github.com/jim245/thermoelectric-spatial-disaggregation) for monthly CONUS thermoelectric power plant water use, allocating each plant's consumption and withdrawal by building footprint area (**GeoPandas**, **Shapely**, **rasterio**, **Overpass API**).
 
 **FEWSION Supply Chain Database**
 
